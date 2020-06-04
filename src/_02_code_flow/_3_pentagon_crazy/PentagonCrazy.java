@@ -29,14 +29,14 @@ int stewie4 = (360/5);
 for(int i = 0; i < 50; i++) {
 				//  DRAW.  Make the robot move "i" pixels
 				//         "i" is the variable in the for loop
-
+	stewie.move(i);
 				//  TURN.  Turn the robot the amount in your angle variable + 1
-
-
+stewie.turn (stewie4-100);
+}
 		// Hide the robot so you can see the pattern.
 		
 		// Check the pattern against the picture in the recipe. If it matches, you are done!
-}
+
 }
 
 	
